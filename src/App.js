@@ -4,7 +4,7 @@ import Introduction from './pages/Portfolio/Introduction';
 
 function App() {
   return (
-    <div className='bg-black h-fit w-full'>
+    <div className='bg-black h-fit w-fit'>
       <Introduction />
     </div>
   );

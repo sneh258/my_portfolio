@@ -14,8 +14,7 @@ function Portfolio() {
       <div className='mt-[150px]'><Contact/></div>
       <div className='border-2 border-white-200'><Companies/></div>
       <div className='mt-[50px]'><WorkEx/></div>
-      <div className='mt-[150px] ml-6 bg-slate-800'><Resume/></div>
-      <div className='h-6'></div>
+      <div className='mt-[150px] bg-slate-800'><Resume/></div>
     </div>
   );
 }
