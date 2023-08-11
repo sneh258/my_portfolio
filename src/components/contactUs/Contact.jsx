@@ -7,10 +7,11 @@ function ContactUs() {
         <div className='mt-[20px] h-8 w-[200px] bg-yellow-500 ml-[650px] pl-2 pt-1 text-black'>Know about my skills</div>
         <div className='p-5'>
           <ul>
-            <li>Languages: C/C++, HTML/CSS, JS, Terraform</li>
-            <li>FrameworksandLibraries: React,Redux,Highcharts,Tailwind</li>
-            <li>Frontend Tools: Figma, eslint , Jest , PostmanAPI</li>
-            <li>Backend Technologies: Node.js, Express, PostgreSQL, Sequelize, Terraform, Docker, AWS VersionControl: Git&Github</li>
+            <li><b>Languages</b>: C/C++, HTML/CSS, JS, Terraform</li>
+            <li><b>FrameworksandLibraries</b>: React, Redux, Highcharts, Tailwind</li>
+            <li><b>Frontend Tools</b>: Figma, eslint , Jest , PostmanAPI</li>
+            <li><b>Backend Technologies</b>: Node.js, Express, PostgreSQL, Sequelize, Docker, AWS </li>
+            <li><b>VersionControl</b>: Git & Github</li>
           </ul>
         </div>
       </div>

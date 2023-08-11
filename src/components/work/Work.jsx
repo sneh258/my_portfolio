@@ -21,8 +21,8 @@ function Work() {
     }
   };
   return (
-    <div className='text-white h-fit font-Julius'>
-      <div className='mt-[20px] h-8 w-[200px] bg-yellow-500 ml-5 pl-8 pt-1 text-black'>Work Experience</div>
+    <div className='text-white h-fit font-Julius border-2 border-white m-2'>
+      <div className='mt-[20px] h-8 w-[200px] bg-yellow-500 ml-4 pl-8 pt-1 text-black'>Personal Projects</div>
       <div className='flex gap-4 mt-7'>
         <div className='flex justify-center gap-4 h-fit w-fit'>
           <span className='mt-[200px] cursor-pointer' onClick={() => handleImageChange('left')}>
@@ -49,7 +49,7 @@ function Work() {
         </div>
       </div>
       <div className='flex h-fit'>
-        <div className='flex h-fit w-1/2 mt-10'>
+        <div className='flex h-fit w-1/2 mt-10 pl-4'>
           <h2><Typewriter
             onInit={(typewriter) => {
               typewriter
@@ -61,7 +61,7 @@ function Work() {
             }}
           /></h2>
         </div>
-        <div className='flex h-fit w-fit flex justify-center'>
+        <div className='flex h-fit w-fit flex justify-center m-4'>
           <img className='h-[400px]' src={notepad} alt='notepad' />
         </div>
       </div>
